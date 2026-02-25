@@ -39,4 +39,9 @@
 ### 安装
 
 ```bash
+# 安装
 npm install -g openclaw-cn@latest
+# 运行安装向导
+openclaw-cn onboard --install-daemon
+# 启动网关
+openclaw-cn gateway --port 18789 --verbose
